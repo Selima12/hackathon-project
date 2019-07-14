@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    background-color: #fdcae7;
+  }
+  .navbar .navbar-brand {
+    color: #000000;
+  }
+  .navbar .navbar-brand:hover,
+  .navbar .navbar-brand:focus {
+    color: #000000;
+  }
+  .navbar .navbar-text {
+    color: #000000;
+  }
+  .navbar .navbar-text a {
+    color: #000000;
+  }
+  .navbar .navbar-text a:hover,
+  .navbar .navbar-text a:focus {
+    color: #000000; 
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    border-radius: .25rem;
+    margin: 0 0.25em;
+  }
+  .navbar .navbar-nav .nav-link:not(.disabled):hover,
+  .navbar .navbar-nav .nav-link:not(.disabled):focus {
+    color: #000000;
+  }
+  .navbar .navbar-nav .dropdown-menu {
+    background-color: #fdcae7;
+    border-color: #c3fcff;
+  }
+  .navbar .navbar-nav .dropdown-menu .dropdown-item {
+    color: #000000;
+  }
+  .navbar .navbar-nav .dropdown-menu .dropdown-item:hover,
+  .navbar .navbar-nav .dropdown-menu .dropdown-item:focus,
+  .navbar .navbar-nav .dropdown-menu .dropdown-item.active {
+    color: #000000;
+    background-color: #c3fcff;
+  }
+  .navbar .navbar-nav .dropdown-menu .dropdown-divider {
+    border-top-color: #c3fcff;
+  }
+  .navbar .navbar-nav .nav-item.active .nav-link,
+  .navbar .navbar-nav .nav-item.active .nav-link:hover,
+  .navbar .navbar-nav .nav-item.active .nav-link:focus,
+  .navbar .navbar-nav .nav-item.show .nav-link,
+  .navbar .navbar-nav .nav-item.show .nav-link:hover,
+  .navbar .navbar-nav .nav-item.show .nav-link:focus {
+    color: #000000;
+    background-color: #c3fcff;
+  }
+  .navbar .navbar-toggle {
+    border-color: #c3fcff;
+  }
+  .navbar .navbar-toggle:hover,
+  .navbar .navbar-toggle:focus {
+    background-color: #c3fcff;
+  }
+  .navbar .navbar-toggle .navbar-toggler-icon {
+    color: #000000;
+  }
+  .navbar .navbar-collapse,
+  .navbar .navbar-form {
+    border-color: #000000;
+  }
+  .navbar .navbar-link {
+    color: #000000;
+  }
+  .navbar .navbar-link:hover {
+    color: #000000;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+    color: #000000;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+    color: #000000;
+  }
+  .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+    color: #000000;
+    background-color: #c3fcff;
+  }
+
+.nopad {
+    padding: 0;
+    margin: 0;
+}
+
+.line {
+    display:flex;
+    flex-flow: wrap row;
+}
+
+.skin, .eyes, .lips, .nails {
+    width: 25%;
+}
+
+.line button {
+    background:    #ffffff;
+border:        1px solid #000000;
+padding:       8px 20px;
+color:         #000000;
+font:          normal 15px/1 "Arial", cursive;
+text-align:    center;
+}
+
+.full-height {
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+  }
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+    background-color: #E8C38C;
+}
+
+.bottom a {
+    color: black;
+    text-decoration-line: underline;
+}
+
+.contact, .support {
+    margin-left: 20px;
+}
+
+.support {
+    margin-left: 20px;
+}
